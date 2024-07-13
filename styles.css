@@ -1,0 +1,98 @@
+body {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url(bg.jpg) no-repeat top center;
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0 0 20px;
+    font-size: 2.5em;
+    color: #000000;
+}
+
+header p {
+    margin: 0 0 20px;
+    font-size: 1.2em;
+    color: #000000;
+}
+
+section {
+    text-align: center;
+    padding: 15px;
+}
+
+.outer-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.button-container {
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px 250px 30px 250px;
+    background-color: #a5d1d3;
+    border-radius: 7px;
+}
+
+.alert-container {
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px 250px 30px 250px;
+    background-color: #a5d1d3;
+    border-radius: 7px;
+}
+
+.calculator-container {
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px 0px 30px 0px;
+    background-color: #a5d1d3;
+    border-radius: 7px;
+}
+
+.button-container,
+.alert-container,
+.calculator-container {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00698f;
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6f99a8;
+}
+
+.calculator-container input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+    max-width: 200px;
+}
+
+.calculator-container p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333333;
+}
+
+p#result {
+    padding-top: 20px;
+}
